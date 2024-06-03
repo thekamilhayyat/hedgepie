@@ -1,0 +1,27 @@
+<section class="bg-themeWhite  py-36 " id="about-us">
+  <div class="container lg:px-10 mx-auto ">
+    <div class="grid grid-cols-2 ">
+      <div data-aos="fade-right" data-aos-duration="1500">
+        <p class="text-primary text-base font-bold uppercase ">Our Mission</p>
+        <p class=" text-6xl font-bold	text-fontDark		">
+          To transform the way to approach investments
+        </p>
+        <p class="  text-lg text-fontColor 	">
+          Hedgepie is transforming the way you approach investments in the decentralized finance (DeFi) realm. By
+          combining the expertise of top DeFi portfolio managers with cutting-edge technology, our platform delivers
+          unrivaled financial opportunities in a safe, trustless, and transparent environment.
+        </p>
+        <p class="pt-8  text-lg text-fontColor 	">
+          Hedgepie serves as your conduit to maximizing the potential of DeFi investments, providing you with the
+          assurance that your funds are securely managed by industry-leading professionals.
+        </p>
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1200">
+        {{ $missionImg := resources.Get "images/Mission.svg" }}
+        <div class="flex justify-end items-center">
+          <img class="pl-20" src="{{ $missionImg.Permalink }}">
+        </div>
+      </div>
+    </div>
+  </div>    
+</section>
